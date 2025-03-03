@@ -21,8 +21,11 @@ git clone git@github.com:LifanovaTatiana/prj3_OOP.git
 poetry install
 ```
 
-### Конфигурационные файлы
+### Тестирование
 
+Проект покрыт юнит-тестами Pytest. Они располагаются в пакете **tests**
+
+Чтобы запустить тесты с оценкой покрытия выполните команду:
 
 ```commandline
 poetry run pytest --cov
