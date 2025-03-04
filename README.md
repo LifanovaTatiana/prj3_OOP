@@ -35,4 +35,3 @@ poetry run pytest --cov
 ### Команда проекта
 
 - **Татьяна Лифанова** - Junior Backend Developer (Python)
-- Команда разработчиков SkyPro
