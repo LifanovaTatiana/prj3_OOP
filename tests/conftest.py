@@ -1,4 +1,4 @@
-mport pytest
+import pytest
 
 from src.category import Category
 from src.lawngrass_category import LawnGrass
@@ -48,8 +48,8 @@ def new_product_valid_3():
 
 
 @pytest.fixture
- def product_iterator(category_phone):
-     return ProductIterator(category_phone)
+def product_iterator(category_phone):
+    return ProductIterator(category_phone)
 
 
 @pytest.fixture
